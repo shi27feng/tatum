@@ -2,24 +2,24 @@
 # Project Related Files
 #
 
-#Executables
+# Executables
 
-#Generated files
+# Generated files
 build*/
 core
 massif.out*
 *.log
 
-#YCM
+# YCM
 .ycm_extra_conf.py
 
-#gprof
+# gprof
 gmon.out
 
-#valgrind
+# valgrind
 callgrind*
 
-#ctags
+# ctags
 ./tags
 
 #
@@ -48,15 +48,19 @@ callgrind*
 #
 *.pyc
 
-#Generated Tatum files
+# Generated Tatum files
 *.rpt
 *.dot
 *.echo
 
-#Test files
+# Test files
 test/mcnc20
 test/vtr
 test/titan_other
 test/titan23
 *.tar
 *.tar.gz
+
+# Folders
+.vscode
+.idea
